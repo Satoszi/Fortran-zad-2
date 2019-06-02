@@ -1,0 +1,8 @@
+set terminal png
+set output "Time_Chart_Signal.png"
+set title "Distorted signal"
+set xlabel "Time"
+set ylabel "Value "
+set grid
+set style data lines
+plot "sinTimeContaminated" title""

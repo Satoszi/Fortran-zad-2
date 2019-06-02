@@ -1,0 +1,8 @@
+set terminal png
+set output "Time_Chart.png"
+set title "Time Chart"
+set xlabel "Time"
+set ylabel "Value "
+set grid
+set style data lines
+plot "TimeChart" title""

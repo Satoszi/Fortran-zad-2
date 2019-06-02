@@ -1,0 +1,8 @@
+set terminal png
+set output "Freq_Chart_Singal.png"
+set title "Distorted signal"
+set xlabel "Frequency"
+set ylabel "Value "
+set grid
+set style data lines
+plot "sinFreqContaminated" title""

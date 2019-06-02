@@ -1,0 +1,8 @@
+set terminal png
+set output "Filtered_signal.png"
+set title "Filtered signal"
+set xlabel "Time"
+set ylabel "Value "
+set grid
+set style data lines
+plot "sinTimeCleared" title""

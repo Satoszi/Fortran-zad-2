@@ -1,0 +1,10 @@
+set terminal png
+set output "Freq_Chart.png"
+set title "Freq Chart"
+set xlabel "Frequency"
+set ylabel "Value "
+
+set grid
+set style data lines 
+
+plot "FreqChart" title""

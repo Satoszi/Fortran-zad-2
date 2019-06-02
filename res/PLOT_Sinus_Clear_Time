@@ -1,0 +1,8 @@
+set terminal png
+set output "Clear_Signal.png"
+set title "Clear Signal"
+set xlabel "Time"
+set ylabel "Value "
+set grid
+set style data lines
+plot "sinTimeClear" title""

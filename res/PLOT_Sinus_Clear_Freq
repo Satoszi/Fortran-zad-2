@@ -1,0 +1,8 @@
+set terminal png
+set output "sig_Freq_Clear.png"
+set title "sig Freq Clear"
+set xlabel "Frequency"
+set ylabel "Value "
+set grid
+set style data lines
+plot "sinFreqClear" title""
